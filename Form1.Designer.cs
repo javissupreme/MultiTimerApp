@@ -51,12 +51,13 @@
             // 
             flpTimers.AutoScroll = true;
             flpTimers.AutoSize = true;
-            flpTimers.Location = new Point(344, 7);
+            flpTimers.FlowDirection = FlowDirection.TopDown;
+            flpTimers.Location = new Point(353, 16);
             flpTimers.Margin = new Padding(6, 7, 6, 7);
-            flpTimers.MinimumSize = new Size(433, 492);
+            flpTimers.MinimumSize = new Size(500, 500);
             flpTimers.Name = "flpTimers";
             flpTimers.Padding = new Padding(6, 7, 6, 7);
-            flpTimers.Size = new Size(968, 492);
+            flpTimers.Size = new Size(1032, 549);
             flpTimers.TabIndex = 1;
             // 
             // pictureBox1
@@ -73,7 +74,7 @@
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1336, 420);
+            ClientSize = new Size(1400, 572);
             Controls.Add(pictureBox1);
             Controls.Add(flpTimers);
             Controls.Add(btnAddTimer);
